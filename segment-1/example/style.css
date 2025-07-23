@@ -1,0 +1,12 @@
+div.card {
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid #ccc;
+  width: 300px;
+  position: relative;
+  border-radius: 4px;
+  display: block;
+}
+div.card > h2 {
+  color: blue;
+}

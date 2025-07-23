@@ -1,0 +1,33 @@
+/* RESET DICKY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div.container div.box {
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  animation: mantoel 0.5s infinite alternate;
+}
+
+@keyframes mantoel {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
